@@ -34,7 +34,7 @@ const UseState = (props) => {
       </div>
       <SectionTitle title="Exercício #02" />
       <input type="text" className="input" value={name} onChange={e => setName(e.target.value)} />
-      <span><p>Nome no extado :</p> {name}</span>
+      <span><p>Nome no estado :</p> {name}</span>
     </div>
   );
 };
