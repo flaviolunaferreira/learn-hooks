@@ -2,7 +2,7 @@ import "./SectionTitle.css";
 import React from "react";
 
 /** 
- * @param props Vai ser usado no título do exercício 
+ * @param props Propriedade usada no título do exercício 
  */
 const SectionTitle = (props) => (
   <div className="SectionTitle">
